@@ -1,0 +1,137 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  body {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(21, 21, 39),rgb(55, 23, 211));
+    /* background-color: #052c74; */
+   
+  }
+ #main{
+    width: 40%;
+    /* border: 1px solid red; */
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+ }
+  #main>img{
+   display: block;
+    width: 70%;
+    margin: auto;
+    /* margin-bottom: -150px; */
+  }
+  #main>input{
+    width: 95%;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+   display: block;
+   margin: auto;
+   margin-top: -90px;
+   background-color: #0c0d13a0;
+  }
+ #searched_char {
+    width: 99%;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 8px;
+    /* border: 1px solid black; */
+  }
+  #searched_char>div>h3>h4{
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  #searched_char>div>h3>h4:hover{
+    color: yellow;
+    
+  }
+  #searched_char>div>h3>h4>span{
+  position: relative;
+ left: 82%;
+ display: flex;
+ margin-top: -23px ;
+ font-size: 16px;
+ font-weight: lighter;
+ text-transform: lowercase;
+    color: white;
+  }
+  .movie{
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 10px;
+    color: white;
+    background-color: #0c0d13a0;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 8px;
+  }
+  #main_div{
+    display: flex;
+    width:100% ;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  #main_div>div{
+    width: 35%;
+    height: 100%;
+    margin-left: 20px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #main_div>div>h2{
+    font-size: 30px;
+  }
+  #main_div>div>p{
+    font-size: 20px;
+  }
+  #main2{
+ position: absolute;
+ top: 30%;
+ left: 25%;
+    width: 50%;
+   margin: auto;
+   color: yellow;
+    
+    /* border: 1px solid red; */
+  }
+  #main2>h2{
+    text-align: center;
+    font-size: 35px ;
+  }
+  #main2>div{
+    margin: auto;
+  }
+  button{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background-color: transparent;
+    color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+    /* border: navajowhite; */
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 20px 50px;
+  }
