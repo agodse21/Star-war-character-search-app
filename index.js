@@ -32,7 +32,7 @@ function append(data) {
   }
 
   // {name: 'Jocasta Nu', height: '167', mass: 'unknown', hair_color: 'white', skin_color: 'fair', …}
-  console.log("amol", data);
+  // console.log("amol", data);
   let container = document.getElementById("searched_char");
   container.innerHTML = "";
   container.style.overflow = "scroll";

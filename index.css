@@ -135,3 +135,61 @@
     border-radius: 10px;
     padding: 20px 50px;
   }
+
+  @media all and (min-width:320px) and (max-width:1080px) {
+    #main{
+      width: 80%;
+      
+    }
+    #main>img{
+      width: 90%;
+    }
+    #main>input{
+      width: 100%;
+     
+     display: block;
+     margin: auto;
+     margin-top: -50px;
+     background-color: #0c0d13a0;
+    }
+   
+    #main_div{
+      /* border: 1px solid red; */
+      /* margin-top: 100px; */
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: 550px;
+    }
+    #main_div>div{
+      width: 100%;
+      height: 100%;
+    
+      /* margin-left: 20px; */
+      border: 1px solid yellow;
+      border-radius: 10px;
+      text-align: center;
+    }
+    #main_div>div>h2{
+      font-size: 25px;
+    }
+    #main_div>div>p{
+      font-size: 20px;
+    }
+    #main2>h2{
+      font-size: 22px ;
+    }
+    button{
+    
+      margin-bottom: 40px;
+      background-color: transparent;
+      color: yellow;
+      font-size: 20px;
+      cursor: pointer;
+      /* border: navajowhite; */
+      border: 1px solid yellow;
+      border-radius: 10px;
+      padding: 20px 50px;
+    }
+  
+  }
